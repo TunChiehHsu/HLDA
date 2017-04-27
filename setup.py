@@ -12,6 +12,6 @@ setup(
    author='Tun-Chieh Hsu, Xialingzi Jin, Yen-Hua Chen',
    author_email='yen.hua.chen@duke.edu',
    packages=['hLDA'],  #same as name
-   install_requires=['numpy', 'scipy.special', 'random', 'collections'], #external packages as dependencies
+   install_requires=[], #external packages as dependencies
 )
 
