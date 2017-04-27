@@ -100,7 +100,18 @@ The hierarchical latent Dirichlet allocation model (hLDA) together with nested C
 	\end{itemize}
 \end{itemize}
 
+\begin{figure}
+\center
+\includegraphics[width=0.5\textwidth]{hLDA.png}
+\caption{ The graphical model representation of hierarchical LDA with a
+nested CRP prior}
+\label{fig:mesh1}
+\end{figure}
+
+
+\subsection{Approximate Inference by Gibbs Sampling}
 We then can approximate infer by Gibbs sampling by 2 parts: (1) sample the $z_{m,n}$, the assignment of $n$th word in the $m$th document to the one of the topics $z\in\{1,...,L\}$\cite{Griffiths_Steyvers_2002}; (2) sample the $c_{m}$, the restaurant (topic) corresponding to the $\ell$th topic in document $m$.
+
 
 \begin{align}
 p(z_{i}=j|\mathbf{z}_{-i},\mathbf{w})&\propto\frac{n_{-i,j}^{(w_{i})}+\beta}{n_{-i,j}^{(\cdot)}+W\beta}\frac{n_{-i,j}^{(d_{i})}+\alpha}{n_{-i,\cdot}^{(d_{i})}+T\alpha}\\
@@ -108,10 +119,28 @@ p(\mathbf{c}_{m}|\mathbf{w},\mathbf{c}_{-m},\mathbf{z})&\propto p(\mathbf{w}_{m}
 \end{align}
 
 
+\section{Applications to simulated data sets}
+
+In this section, we apply hLDA on the simulated data. The data included 10 documents with 10 words in each document.  In the experiments, we let the sampler burn in for 10000 iterations and control the level. 
+
+\begin{figure}
+\center
+\includegraphics[width=0.9\textwidth]{sim.png}
+\caption{ hLDA with three level hierarchy}
+\label{fig:h1}
+\end{figure}
+
+
+\begin{figure}
+\center
+\includegraphics[width=0.9\textwidth]{sim2.png}
+\caption{ hLDA with four level hierarchy}
+\label{fig:h1}
+\end{figure}
+
+
 \newpage
-
 \bibliographystyle{plain}
-
 \bibliography{citation}
 
 \end{document}
