@@ -1,0 +1,10 @@
+setup.py
+hlda/__init__.py
+hlda/crp.py
+hlda/hlda.py
+hlda/util.py
+hlda.egg-info/PKG-INFO
+hlda.egg-info/SOURCES.txt
+hlda.egg-info/dependency_links.txt
+hlda.egg-info/requires.txt
+hlda.egg-info/top_level.txt

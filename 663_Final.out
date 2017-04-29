@@ -1,0 +1,8 @@
+\BOOKMARK [1][-]{section.1}{Abstract}{}% 1
+\BOOKMARK [1][-]{section.2}{Background}{}% 2
+\BOOKMARK [1][-]{section.3}{Algorithm Description}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{The Chinese restaurant process}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Nested Chinese restaurant process}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{A hierarchical topic model}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.4}{Approximate Inference by Gibbs Sampling}{section.3}% 7
+\BOOKMARK [1][-]{section.4}{Applications to simulated data sets}{}% 8
