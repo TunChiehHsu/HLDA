@@ -71,7 +71,7 @@ def likelihood(corpus_s, topic, eta):
             
             like = prev + later 
             w_m[i, j] = like
-        w_m[i, :] = w_m[i, :] + abs(min(w_m[i, :]) + 0.1)
+        w_m[i, :] = np.add(w_m[i, :], abs(min(w_m[i, :]))+0.1)
     w_m = w_m/w_m.sum(axis = 1)[:, np.newaxis]
     return w_m
 
