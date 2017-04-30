@@ -17,6 +17,7 @@ setup(
     version='0.0.1',
     description='STA663 Final Project : Hierarchical Topic Models and the Nested Chinese Restaurant Process',
     url='https://github.com/Yen-HuaChen/STA663-Final-Project.git',
+    download_url = 'https://github.com/Yen-HuaChen/STA663-Final-Project/tarball/0.0.1',
     author='Tun-Chieh Hsu, Xialingzi Jin, Yen-Hua Chen',
     # See https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
