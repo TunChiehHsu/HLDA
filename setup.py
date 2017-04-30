@@ -10,15 +10,16 @@ https://github.com/pypa/sampleproject
 from setuptools import setup  # , find_packages
 
 setup(
-    name='hLDA',
+    name = 'hLDA',
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='0.0.1',
-    description='STA663 Final Project : Hierarchical Topic Models and the Nested Chinese Restaurant Process',
-    url='https://github.com/Yen-HuaChen/STA663-Final-Project.git',
-    download_url = 'https://github.com/Yen-HuaChen/STA663-Final-Project/tarball/v0.0.1',
-    author='Tun-Chieh Hsu, Xialingzi Jin, Yen-Hua Chen',
+    version = '0.0.1',
+    description = 'STA663 Final Project : Hierarchical Topic Models and the Nested Chinese Restaurant Process',
+    url = 'https://github.com/Yen-HuaChen/STA663-Final-Project.git',
+    download_url = 'https://github.com/Yen-HuaChen/STA663-Final-Project/archive/v0.0.1.tar.gz',
+    author = 'Tun-Chieh Hsu, Xialingzi Jin, Yen-Hua Chen',
+    author_email = 'yen.hua.chen@duke.edu',
     # See https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
         # How mature is this project? Common values are
