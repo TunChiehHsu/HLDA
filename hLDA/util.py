@@ -83,6 +83,8 @@ def wn(c_m, corpus_s):
     wn_ass = []
     for i, corpus in enumerate(corpus_s):
         for word in corpus:
+            if c_m[i].sum != 1:
+                c_m[i] = c_m[i]/c_m[i].sum()
             theta = np.random.multinomial(1, c_m[i]).argmax()
             wn_ass.append(theta)
     return np.array(wn_ass)
