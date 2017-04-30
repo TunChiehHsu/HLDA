@@ -1,6 +1,7 @@
 import numpy as np
 import pydot
 import pygraphviz
+from collections import Counter
 from .crp import CRP
 from .util import gibbs
 
