@@ -2,6 +2,7 @@ import numpy as np
 from scipy.special import gammaln
 from math import exp
 from collections import Counter
+from .crp import CRP
 
 def Z(corpus_s, topic, alpha, beta):
     n_vocab = sum([len(x) for x in corpus_s])
