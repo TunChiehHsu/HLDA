@@ -16,8 +16,8 @@ setup(
     # https://packaging.python.org/en/latest/single_source_version.html
     version = '0.0.1',
     description = 'STA663 Final Project : Hierarchical Topic Models and the Nested Chinese Restaurant Process',
-    url = 'https://github.com/Yen-HuaChen/STA663-Final-Project.git',
-    download_url = 'https://github.com/Yen-HuaChen/STA663-Final-Project/archive/v0.0.1.tar.gz',
+    url = 'https://github.com/Yen-HuaChen/hLDA.git',
+    download_url = 'https://github.com/Yen-HuaChen/hLDA/archive/v0.0.1.tar.gz',
     author = 'Tun-Chieh Hsu, Xialingzi Jin, Yen-Hua Chen',
     author_email = 'yen.hua.chen@duke.edu',
     # See https://pypi.python.org/pypi?%3Aaction=list_classifiers
